@@ -1,0 +1,17 @@
+.navbar-container {
+  background: #fff;
+  border-bottom: 2px solid grey;
+}
+
+.navbar-container .logo {
+  max-width: 300px;
+}
+
+.navbar-links ul {
+  display: flex;
+}
+
+.navbar-links-item {
+  padding: 1rem;
+  list-style: none;
+}
