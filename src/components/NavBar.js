@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import logo from "../images/logo.png";
 import "../styles/navbar.css";
 
@@ -13,8 +14,12 @@ function NavBar() {
       />
       <div className="navbar-links">
         <ul>
-          <li className="navbar-links-item">View Properties</li>
-          <li className="navbar-links-item">Add a Property</li>
+          <li className="navbar-links-item">
+            <NavLink to="/">View Properties</NavLink>
+          </li>
+          <li className="navbar-links-item">
+            <NavLink to="/add-property">Add a Property</NavLink>
+          </li>
         </ul>
       </div>
     </div>
