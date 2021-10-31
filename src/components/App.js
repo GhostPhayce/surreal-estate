@@ -1,4 +1,5 @@
-import NavBar from "./NavBar"
+import React from "react";
+import NavBar from "./NavBar";
 import "../styles/app.css";
 
 function App() {
@@ -7,6 +8,6 @@ function App() {
       <NavBar />
     </div>
   );
-};
+}
 
 export default App;
