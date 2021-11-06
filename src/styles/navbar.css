@@ -27,9 +27,9 @@
 .navbar-links-item a {
   color: #fff;
   text-decoration: none;
+  background: #774872;
 }
 
 .navbar-links-item a:active {
-  color: #333;
-  background: #fcb700;
+  background: #333;
 }

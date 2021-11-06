@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import postProperty from "../requests/postProperty";
 import "../styles/addproperty.css";
 
 function AddProperty() {
@@ -18,7 +19,7 @@ function AddProperty() {
 
   const handleAddProperty = (event) => {
     event.preventDefault();
-    console.log(fields);
+    postProperty(fields);
   };
 
   const handleFieldChange = (event) => {
@@ -98,7 +99,7 @@ function AddProperty() {
             type="email"
             value={fields.email}
             onChange={handleFieldChange}
-            placeholder="tifa@7thheaven.com"
+            placeholder="tifa@finalheaven.com"
           />
         </label>
         <label htmlFor="price">
