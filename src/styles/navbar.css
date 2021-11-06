@@ -19,15 +19,15 @@
 }
 
 .navbar-links-item a {
-  padding: 1rem;
-  background: #333;
-  border-radius: 5px;
-}
-
-.navbar-links-item a {
   color: #fff;
   text-decoration: none;
   background: #774872;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.navbar-links-item a:hover {
+  background: #333;
 }
 
 .navbar-links-item a:active {

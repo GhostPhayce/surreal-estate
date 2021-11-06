@@ -1,3 +1,36 @@
 .AddProperty {
   padding: 2rem;
 }
+
+.AddProperty form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.AddProperty label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: bold;
+}
+
+.AddProperty input,
+.AddProperty select,
+.AddProperty button {
+  padding: 0.5rem;
+}
+
+.AddProperty button {
+  background: #774872;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.AddProperty button:hover {
+  background: #333;
+  cursor: pointer;
+}
